@@ -1,0 +1,16 @@
+1.请求在线jq http://code.jquery.com/jquery-1.4.1.min.js
+2.div是否可以通过设置name属性来向后端传参
+    可以使用一个window.location
+    <div id="oo" name='test'>this is </div>
+<input type="button" value="click" onclick='window.location="./test.php"'>
+3.php向本页面传参
+    window.location="?test="+....=>test.php
+4.html实现本页面书签跳转 href=#+id
+
+5.php中html代码块中是否支持$变量形式
+<?php  <<<php
+<li class="list_item">$item['content_main']<button class="dl" onclick="window.location.href=./delete.php?dl_item=$item['content_id']">删除</button></li>
+php;
+?>
+
+
