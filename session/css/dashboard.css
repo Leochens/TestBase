@@ -1,0 +1,48 @@
+#sidebar{
+    display: block;
+    width: 180px;
+    height: 100%;
+    background:rgb(51, 55, 68);
+    /*margin-top: -35px;
+    padding-top: 35px;*/
+    float: left;
+
+    font-size: 12px;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+.header
+{
+    background: rgb(55, 61, 65);
+}
+
+#sidebar li{
+    
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+
+}
+#sidebar li:hover{
+    /*background: #aec9c2;*/
+    background:  rgb(66, 72, 91);
+    cursor: pointer;
+    
+}
+
+.menu_btn{
+    background: rgb(74, 80, 100);
+    color: #fff;
+}
+#sidebar h3{
+        color: rgb(174, 185, 194);
+        font-size: 12px;
+}
+#sidebar h3:hover{
+animation: fadeIn 0.5s;
+    color: #fff;    
+}
+@keyframes fadeIn{
+    from{background:rgb(51, 55, 68);}to{background:  rgb(66, 72, 91);color: #fff;}
+}
+
+

@@ -14,7 +14,7 @@ if (isset($_POST['sub'])) {
     {
         $_SESSION['username']=$_POST['username'];
         echo "<h1>亲爱的".$_SESSION['username']."你登陆成功了</h1>";
-        header('Location:index.php');        
+        header('Location:dashboard.php');        
     }else{
         $flag=1;
     }

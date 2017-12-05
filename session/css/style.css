@@ -1,11 +1,14 @@
     body{
         margin: 0;
     }
-    a,h1,h2,h3,h4,h5,h6,input,ul,li,div{
+    a,h1,h2,h3,h4,h5,h6,input,ul,li,div,span{
         border: none;
         list-style: none;
         border: 0;
         outline: none;
+        margin:0;
+        padding: 0;
+        background: transparent;
     }
     h1,h2,h3,h4,h5,h6{
         color: #483D8B;
@@ -57,9 +60,11 @@
         margin-left: 65%;
     }
     .header{
-        height: 35px;
-
+        height: 50px;
+       line-height: 50px;
+        font-size: 14px;
         background: #D2691E;
+        color: #fff;
     }
     .header .header_menu{
         width: 70%;
@@ -68,13 +73,35 @@
     .header .header_menu .menu_item{
         display: inline;
         color: white;
-        padding: 0 3px;
+        padding: 0 18px 0 18px;
         float: right;
         margin-left: 10px;
         font-weight: 300;
-        line-height: 35px;
     } 
     .header .header_menu .menu_item:hover{
         color:#000; 
         cursor: pointer;
     }
+    ul li.left{
+        float: left;
+        margin-right: 18px;
+    }
+    #search{
+
+       border: 1px solid #A9A9A9;
+       border-radius: 3px;
+       padding: 3px;
+       color: #fff;
+    }
+    #search:focus{
+        opacity: 0.5;
+    }
+    #sub{
+    margin-left: -25px;
+    margin-top: 5px;
+    width: 20px;
+    padding: 3px;
+    background: url(../img/Search.png);
+    background-size:20px;
+    background-repeat: no-repeat;
+    }    
