@@ -57,15 +57,20 @@ $res=$db->getAll($sql);
     text-align: center;
     float: left;
     margin:15px;
-    animation:  1s jello ;
+    animation:  1s flipInX ;
 
     }​
+    .card:hover{
+        
+        background: #FFA07A;color: #fff;
+        animation: 1s jello;
+    }    
     .sa_header{
     width: 300px;
     background-color: #4CAF50;
     color: white;
     padding: 10px;
-    font-size: 40px;
+    
     padding-bottom: 6px;
 
     }​
@@ -73,10 +78,7 @@ $res=$db->getAll($sql);
     padding: 10px;
 
     }
-    .card:hover{
-        
-        background: #FFA07A;color: #fff;
-    }
+   
     
     .del{
         display: none;

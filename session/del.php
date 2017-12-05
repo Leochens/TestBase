@@ -1,6 +1,6 @@
 <?php 
     //这里执行用户的注销行为
-    session_start();
+    require 'include/init.php';
     header("Content-Type:text/html;charset=utf-8");
     //清空session 
     $_SESSION=array();
