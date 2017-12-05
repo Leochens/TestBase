@@ -22,7 +22,7 @@
     line-height: 40px;
 
 }
-#sidebar li:hover{
+#sidebar li:hover,#sidebar li:focus{
     /*background: #aec9c2;*/
     background:  rgb(66, 72, 91);
     cursor: pointer;

@@ -54,6 +54,7 @@ div.top_lr
     width: 40%;
     margin:  auto;    
     margin-left: 10%;
+    line-height: 40%;
 }
 
 div.info_1{
@@ -70,13 +71,14 @@ div.top_r{
     margin-left: 2%;
     width: 20%; 
     height: 150px;      
+
 }
 
 div.middle{
     border: 1px solid #778899;
     height: 40%;
     width: 82%;
-    margin-top: 12%;
+    margin-top: 20%;
     float: none;
     padding: 10px;
 }
@@ -84,5 +86,26 @@ div.details{
     height: 80%;
     width: 600px;
     margin:  auto;
+    padding: 10px;
 }
+#TITLE{
+    border: 1px solid red;
+    height: 40%;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
 
+}
+#art{
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border: 1px dashed red;
+    
+    width: 100%;
+    height: 100%;
+    resize: none;
+}

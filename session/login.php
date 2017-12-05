@@ -1,9 +1,8 @@
 <?php
 //这里执行用户的登陆行为 
-require './session_start.php';
+require './include/init.php';
 $flag=0;        //检测是否登陆出错
 if (isset($_POST['sub'])) {
-
     $db= mysql::getIns();
     $sql="SELECT * FROM user WHERE username = '".$_POST['username']."' AND  password = '".md5($_POST['password'])."'";
 

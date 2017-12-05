@@ -9,10 +9,10 @@ class mysql{
     private $conf = array();
 
     protected function __construct(){
-        $this->conf = array('hostname' =>'localhost' , 'username' => 'root','password'=>'178463','database' => 'session');;
+        $this->conf = conf::getIns();
 
-        $this->connect($this->conf['hostname'],$this->conf['username'],$this->conf['password']);
-        $this->select_db($this->conf['database']);
+        $this->connect($this->conf->hostname,$this->conf->username,$this->conf->password);
+        $this->select_db($this->conf->database);
         $this->setChar('utf8');
     }
 
@@ -130,7 +130,7 @@ class mysql{
     {
         return mysql_num_rows($res);
     }
-
+    
 
 }
 

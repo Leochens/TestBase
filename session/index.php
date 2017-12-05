@@ -1,7 +1,8 @@
 <?php 
-require './session_start.php';
+require './include/init.php';
+
 require 'session_check.php';
-include './header.html';
+
 
 ?>
 <h1>这里是index.php</h1>

@@ -9,6 +9,7 @@
     {
         setcookie(session_name(),'',time()-3600,'/');
     }
+    include ROOT.'View/header.html';
     //彻底删除session
     if(session_destroy())   echo "注销成功";  
     header('refresh:1,url="./login.php"') ;
