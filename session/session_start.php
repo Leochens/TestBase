@@ -4,6 +4,5 @@
     //开启一个session
     session_start();
     header("Content-Type:text/html;charset=utf-8");
-    
  ?>
-<link rel="stylesheet" href="css/style.css">
+

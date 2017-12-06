@@ -1,6 +1,5 @@
 <?php 
 require '../include/init.php';
-$db=mysql::getIns();
 
 if($_GET['sub'])
 {

@@ -7,6 +7,7 @@ include './session_check.php';
 <head>
     <title>后台首页</title>
     <link rel="stylesheet" href="./css/dashboard.css">
+
     <script src="js/dashboard.js"></script>
 </head>
 <body>
@@ -18,14 +19,12 @@ include './session_check.php';
     <div class="content">
         <ul>
             <li class="menu_btn"><a href=""><h3>MENU</h3></a></li>
-            <li>
-                <span onclick="ToArticle()">
-                   <h3>我的文章</h3>
-                </span>
+            <li>  
+                <h3 onclick="ToArticle()">我的日记卡片</h3>
             </li>
             <li>
                 <span>
-                    <a href=""><h3>我的日志</h3></a>
+                    <h3 onclick="ToBookmark()">我的书签</h3>
                 </span>
             </li>
             <li>
@@ -64,6 +63,10 @@ include './session_check.php';
     var frame=document.getElementById('frame');
     frame.setAttribute('src','./dashboard/show_article.php')
     }
+    function ToBookmark() {
+    var frame=document.getElementById('frame');
+    frame.setAttribute('src','./dashboard/bookmark.php')
+    }    
 
 </script>
 

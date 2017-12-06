@@ -21,7 +21,7 @@ $res=$db->getAll($sql);
         echo '<li>';
 ?>   
     <div class="card">
-        <button onclick='window.location.href="./delete.php?id=<?php echo $art['art_id']; ?>"' class="del animated rubberBand">X</button>
+        <button onclick='window.location.href="./delete.php?art_id=<?php echo $art['art_id']; ?>"' class="del animated rubberBand">X</button>
         <div class="sa_header">
             <h1><?php echo $art['title']?></h1>
         </div>
@@ -47,6 +47,15 @@ $res=$db->getAll($sql);
         list-style: none;
         margin: 0;
         padding: 0;
+    }
+    .menu span{
+        font-size: 14px;
+        font-weight: 300;
+        background: #00FA9A;
+        color: #fff;
+        padding: 4px;
+        border-radius: 3px;
+        cursor: pointer;
     }
     .card{
     min-height: 300px;

@@ -34,3 +34,4 @@ $db=mysql::getIns();
 
 
  ?>
+     <link rel="stylesheet" href="css/style.css">
