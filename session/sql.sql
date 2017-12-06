@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `article` (
 --书签管理
 CREATE TABLE IF NOT EXISTS `bookmark` (
   `mark_id` int(11) NOT NULL AUTO_INCREMENT,
-  `info` varchar(30) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `info` varchar(50) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `link` varchar(100) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `user` varchar(20) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unknown',
   `__spare1` int(10)  NOT NULL DEFAULT 0,

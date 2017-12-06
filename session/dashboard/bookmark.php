@@ -1,12 +1,36 @@
 <?php 
 require '../include/init.php';?>
-<form id="mark_form" action="">
-    书签名：<input type="text" name="info" id="info">链接：<input type="text" name="link" id="link">
-    <input type="submit" name="sub" id="sub" value="提交">
-</form>
 
-<?php  if (isset($_GET['sub'])&&$_GET['info']!=null&&$_GET['link']!=null) {//info和link不能为空
-    $Mark['info']=$_GET['info'];
+<?php  if (isset($_GET['sub'])&&$_GET['link']!=null) {//info和link不能为空
+    $url = $_GET['link'];
+    $info='';
+
+    if (empty($_GET['info'])) 
+    {
+        $array = file($url);
+        echo "he";             
+        foreach($array as $k=>$v)
+        {
+            if(preg_match("/<title>(.*)<\/title>/", $v, $title)){
+            //转码
+            $title[1]=mb_convert_encoding($title[1], 'UTF-8', 'UTF-8,GBK,GB2312,BIG5');
+            $info=$title[1];
+            echo "<script>
+            alert('$info');
+        </script>";  
+            }       
+        
+        }
+    }
+    elseif (isset($_GET['info'])) {
+        $info = $_GET['info'];    
+    }else{
+        echo "<script>
+            alert('存储时发生意外错误');
+        </script>";  
+    }
+
+    $Mark['info']=$info;
     $Mark['link']=$_GET['link'];
     $Mark['user']=$_SESSION['username'];
     if($db->autoExecute('bookmark',$Mark))
@@ -18,6 +42,13 @@ require '../include/init.php';?>
     }
 }?>
 <link rel="stylesheet" href="../css/animate.css">
+<form id="mark_form" action="">
+    书签名：<input type="text" name="info" id="info" placeholder="如果不填写则自动获取">链接：<input type="text" name="link" id="link">
+    <input type="submit" name="sub" id="sub" value="提交">
+</form>
+
+
+
 <!--显示-->
 <div class="showMarks" >
     <ul>
@@ -96,3 +127,4 @@ foreach ($marks as $key => $mark) {?>
         text-decoration: underline;
     }
 </style>
+
