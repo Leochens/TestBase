@@ -1,5 +1,6 @@
 <?php 
 require './include/init.php';
+echo md5('123456');
 ?>
 
 <form id="reg_form" action="" method="post">
@@ -16,7 +17,13 @@ if (isset($_POST['sub'])) {
     if ($_POST['username']==null||$_POST['password']==null||$_POST['email']==null) {
         $tip='请完善信息';
     }else{
-        $tip="注册成功";
+        $new_user['username']=$_POST['username'];
+        $new_user['password']=md5($_POST['password']);
+        $new_user['email']=$_POST['email'];
+        if($db->autoExecute('user',$new_user))
+            $tip="注册成功";
+        else
+            $tip="注册失败";
     }
     //echo "<script>window.location=".'./View/Tips.php?tip='.$tip.";</script>";
     header("Location:./View/Tips.php?tip=".$tip);

@@ -8,6 +8,7 @@ require '../include/init.php';?>
 <?php  if (isset($_GET['sub'])&&$_GET['info']!=null&&$_GET['link']!=null) {//info和link不能为空
     $Mark['info']=$_GET['info'];
     $Mark['link']=$_GET['link'];
+    $Mark['user']=$_SESSION['username'];
     if($db->autoExecute('bookmark',$Mark))
     {
         echo "<script>alert('存储成功');history.go(-1)</script>";
@@ -20,7 +21,9 @@ require '../include/init.php';?>
 <!--显示-->
 <div class="showMarks" >
     <ul>
-<?php $marks=$db->getAll("select * from bookmark") ;
+<?php 
+    $sql="select * from bookmark where user = '".$_SESSION['username']."'";
+ $marks=$db->getAll($sql) ;
 foreach ($marks as $key => $mark) {?>
         <li class="mark_item animated flipInY">
         <button onclick='window.location.href="./delete.php?mark_id=<?php echo $mark['mark_id']; ?>"' class="del animated rubberBand">X</button>

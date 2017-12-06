@@ -11,6 +11,7 @@ if($_GET['sub'])
     //把文章存进去
     $art_info['title']=$_GET['title'];
     $art_info['content']=$_GET['content'];
+    $art_info['user']=$_SESSION['username'];
     if($db->autoExecute('article',$art_info))
     {
         echo "存储成功！";
