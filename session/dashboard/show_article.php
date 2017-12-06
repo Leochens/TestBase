@@ -2,7 +2,7 @@
 include '../include/init.php';
 require ROOT.'/session_check.php';
 
-$sql="SELECT * FROM article WHERE user =".$_SESSION['username'];
+$sql="SELECT * FROM article WHERE user ='".$_SESSION['username']."'";
 $res=$db->getAll($sql);
 ?>
 <link rel="stylesheet" href="../css/animate.css">
