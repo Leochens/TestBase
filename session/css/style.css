@@ -101,7 +101,6 @@
     margin-top: 5px;
     width: 20px;
     padding: 3px;
-    background: url(../img/Search.png);
-    background-size:20px;
-    background-repeat: no-repeat;
+    background: #FFFFF0;
+    border-radius: 9px;
     }    
