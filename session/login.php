@@ -28,7 +28,7 @@ if (isset($_POST['sub'])) {
          <input id="password" type="password" name="password"><br>
          <input class="btn" type="submit" name="sub" value="login">
      </form> 
-     <a class="reg" href="./reg.php">没有账户？注册</a>
+     <a class="reg" href="./register.php">没有账户？注册</a>
  </div>
 
 <?php if($flag) {?>

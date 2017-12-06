@@ -6,10 +6,6 @@ require ROOT.'./include/conf.ini.php';//加载配置文件
 require ROOT.'./mysql.class.php';       //加载数据库模块
 require ROOT.'/include/conf.class.php';
 require ROOT.'/session_start.php';
-
-
-
-
 //递归转义数组
 function _addslashes($arr){
     foreach($arr as $key=>$value){
