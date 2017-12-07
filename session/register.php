@@ -10,7 +10,7 @@ echo md5('123456');
     <input type="submit" name="sub" value="注册" class="sub">
 </form>
 
-
+<?php include ROOT.'./footer.php';?>
 <?php 
 if (isset($_POST['sub'])) {
     $tip='';

@@ -17,6 +17,7 @@ header("Content-Type:text/html;charset=utf-8"); ?>
 
 
 </div>
+<?php include ROOT.'./footer.php';?>
 
 <style>
 /*    h1{

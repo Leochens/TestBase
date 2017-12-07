@@ -1,7 +1,5 @@
 <?php 
     //模板管理
-    
-
     $header['logo_path']='LOGO';
     $header['title']='TITLE';
     $header['Menu']= array(
@@ -51,4 +49,13 @@
 
     $Edit['info']='这里是markdown编辑器';
     $Edit['help']="在此区域可以进行markdown的编辑，一切编辑都会实时预览在右边的区域. ";
+
+
+
+    //版权
+    $About['author']='张鹤麟';
+    $About['email']='1183422598@qq.com';
+    $About['copyright']='© 2017 Mokis.top, Inc.';
+
+
  ?>
