@@ -10,6 +10,7 @@ textarea,h1,h2,h3,h4,h5,h6,input,button,div,p,span,ul,li,table,th,td,tr,label{
     /*font-size: 17px;*/
     font-weight: 300;  
     margin: 0;
+    outline: none;
 }
 .main{
     height: 100%;
