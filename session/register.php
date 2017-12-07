@@ -15,15 +15,15 @@ echo md5('123456');
 if (isset($_POST['sub'])) {
     $tip='';
     if ($_POST['username']==null||$_POST['password']==null||$_POST['email']==null) {
-        $tip='请完善信息';
+        $tip=$reg['improve'];
     }else{
         $new_user['username']=$_POST['username'];
         $new_user['password']=md5($_POST['password']);
         $new_user['email']=$_POST['email'];
         if($db->autoExecute('user',$new_user))
-            $tip="注册成功";
+            $tip=$reg['reg_sec'];
         else
-            $tip="注册失败";
+            $tip=$reg['reg_fai'];
     }
     //echo "<script>window.location=".'./View/Tips.php?tip='.$tip.";</script>";
     header("Location:./View/Tips.php?tip=".$tip);

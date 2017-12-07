@@ -1,11 +1,13 @@
 <?php 
+require '../include/init.php';
 header("Content-Type:text/html;charset=utf-8");
 if (isset($_GET['tip'])) {
 ?>
 <div class="wraper">
+
 <div class="tip">
     <p class="tip_info"><?php echo $_GET['tip']; ?></p>
-    <?php if ($_GET['tip']=='注册成功') {?>
+    <?php if ($_GET['tip']==$Tips['login_sec']) {?>
     <button class="yes" onclick="window.location='../login.php'">确定</button>
     <?php   }else{ ?>
     <button class="yes" onclick="history.go(-1)">确定</button>
@@ -41,7 +43,9 @@ if (isset($_GET['tip'])) {
         padding: 3px;
         border-radius: 3px;
         background: #7B68EE;
-        margin: 0 auto;
+        margin: 30% auto;
+        color: #fff;
+
     }
     @keyframes ani{
         from{top: 0;opacity: 0;}to{top: 10%;opacity: 1}

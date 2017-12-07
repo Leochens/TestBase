@@ -7,16 +7,16 @@
 <body>
     <div class="header">
         <ul>
-            <li class="left">LOGO</li>
-            <li class="left">TITLE</li>
+            <li class="left"><?php echo $header['logo_path'];?></li>
+            <li class="left"><?php echo $header['title'];?></li>
             <li class="left"><input id="search" type="text"><input id="sub" type="submit" value=""></li>
         </ul>
         <ul class="header_menu">
-            <li class="menu_item">Home</li>
-            <li class="menu_item">Github</li>
-            <li class="menu_item">About</li>
-            <li class="menu_item">Fork</li>
-            <li class="menu_item">Session</li>
+            <?php 
+                foreach ($header['Menu'] as $menus) {
+                    echo "<li class='menu_item'><a href='#'>".$menus."</a></li>";
+                }
+             ?>
         </ul>
     </div>
 </body>

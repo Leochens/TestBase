@@ -11,6 +11,9 @@
     }
     include ROOT.'View/header.html';
     //彻底删除session
-    if(session_destroy())   echo "注销成功";  
+    if(session_destroy())
+    {
+    echo $Tips['logout'];  
     header('refresh:1,url="./login.php"') ;
+}
  ?>

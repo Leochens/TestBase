@@ -13,7 +13,7 @@ require '../include/init.php';?>
         {
             if(preg_match("/<title>(.*)<\/title>/", $v, $title)){
             //转码
-            $title[1]=mb_convert_encoding($title[1], 'UTF-8', 'UTF-8,GBK,GB2312,BIG5');
+            $title[1]=mb_convert_encoding($title[1], 'UTF-8', 'UTF-8,GBK,GB2312,BIG5,gb2312');
             $info=$title[1];
             echo "<script>
             alert('$info');
@@ -25,9 +25,7 @@ require '../include/init.php';?>
     elseif (isset($_GET['info'])) {
         $info = $_GET['info'];    
     }else{
-        echo "<script>
-            alert('存储时发生意外错误');
-        </script>";  
+        goTip_2F($Tips['store_err']);
     }
 
     $Mark['info']=$info;
@@ -35,9 +33,10 @@ require '../include/init.php';?>
     $Mark['user']=$_SESSION['username'];
     if($db->autoExecute('bookmark',$Mark))
     {
-        echo "<script>alert('存储成功');history.go(-1)</script>";
+        goTip_2F($Tips['store_sec']);
     }else{
-        echo "<script>alert('存储失败');history.go(-1)</script>";
+        goTip_2F($Tips['store_fai']);
+
 
     }
 }?>

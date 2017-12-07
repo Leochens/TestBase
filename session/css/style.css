@@ -9,6 +9,7 @@
         margin:0;
         padding: 0;
         background: transparent;
+        text-decoration: none;
     }
     h1,h2,h3,h4,h5,h6{
         color: #483D8B;
@@ -70,7 +71,7 @@
         width: 70%;
         margin: 0 auto;
     }
-    .header .header_menu .menu_item{
+    .header .header_menu .menu_item,.header .header_menu .menu_item a{
         display: inline;
         color: white;
         padding: 0 18px 0 18px;
@@ -78,7 +79,7 @@
         margin-left: 10px;
         font-weight: 300;
     } 
-    .header .header_menu .menu_item:hover{
+    .header .header_menu .menu_item a:hover{
         color:#000; 
         cursor: pointer;
     }
