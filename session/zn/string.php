@@ -49,4 +49,6 @@
     $delete['sec']='删除成功';
     $delete['fai']='删除失败';
 
+    $Edit['info']='这里是markdown编辑器';
+    $Edit['help']="在此区域可以进行markdown的编辑，一切编辑都会实时预览在右边的区域. ";
  ?>
