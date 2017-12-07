@@ -26,9 +26,9 @@ $res=$db->getAll($sql);
         <div class="sa_header">
             <h1><?php echo $art['title']?></h1>
         </div>
-        <div class="container">
+        <div class="contain">
             <!--从数据库取出时要把\n换成br-->
-            <p><?php echo str_replace("\n","<br/>",$art['content']);?></p>
+            <?php echo str_replace("\n","<br/>",$art['content']);?>
         </div>
     </div>     
 <?php
@@ -36,7 +36,7 @@ $res=$db->getAll($sql);
          }?>
 </ul>
 
-
+<?php include ROOT.'./footer.php';?>
 <style>
     ul,li{
         list-style: none;
@@ -105,7 +105,7 @@ $res=$db->getAll($sql);
     padding-bottom: 6px;
 
     }​
-    .container {
+    .contain{
     padding: 10px;
     
     }

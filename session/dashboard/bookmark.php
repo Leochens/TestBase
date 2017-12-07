@@ -66,6 +66,8 @@ foreach ($marks as $key => $mark) {?>
         <?php    } ?>  
     </ul> 
 </div>
+<?php include ROOT.'./footer.php';?>
+
 <style>
     ul,li{
         list-style: none;

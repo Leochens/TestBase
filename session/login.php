@@ -28,8 +28,11 @@ if (isset($_POST['sub'])) {
          <input class="btn" type="submit" name="sub" value="login">
      </form> 
      <a class="reg" href="./register.php">没有账户？注册</a>
- </div>
 
+
+     
+ </div>
+<?php include ROOT.'./footer.php';?>
 <?php if($flag) {?>
  <script>
 

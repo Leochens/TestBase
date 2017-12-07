@@ -55,9 +55,11 @@ include './session_check.php';
         </ul>
     </div>
 </div>
+
 <!--主要控制区域-->
 <iframe id="frame" style="float: left;overflow: hidden;" src="./dashboard/myinfo.php" frameborder="0" height="100%" width="80%"></iframe>
 <!--页脚-->
+
 <script>
     function ToArticle() {
     var frame=document.getElementById('frame');
