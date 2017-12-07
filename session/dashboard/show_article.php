@@ -44,7 +44,7 @@ $res=$db->getAll($sql);
     textarea,h1,h2,h3,h4,h5,h6,input,button,div,p,span,ul,li,table,th,td,tr,label{
         border: none;
         font-family: 'microsoft Yahei';
-        font-size: 17px;
+        /*font-size: 17px;*/
         font-weight: 300;  
     }
     .del_btn{
