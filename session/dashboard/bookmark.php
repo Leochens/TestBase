@@ -55,7 +55,7 @@ require '../include/init.php';?>
     $sql="select * from bookmark where user = '".$_SESSION['username']."'";
  $marks=$db->getAll($sql) ;
 foreach ($marks as $key => $mark) {?>
-        <li class="mark_item animated flipInY">
+        <li class="mark_item animated fadeIn">
         <button onclick='window.location.href="./delete.php?mark_id=<?php echo $mark['mark_id']; ?>"' class="del animated rubberBand">X</button>
         <!--<span>
         <?php echo $mark['info']; ?>
