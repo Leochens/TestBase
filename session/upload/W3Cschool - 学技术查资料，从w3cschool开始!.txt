@@ -1,0 +1,1035 @@
+﻿  W3Cschool - 学技术查资料，从w3cschool开始!              
+
+
+ 编程入门教程
+  开源文档
+  编程实例
+  速查词典
+  问答
+  更多  
+
+  编程实战训练
+
+  职位进阶
+
+  排行榜
+
+
+
+
+  
+
+
+注册 | 登录
+
+
+  首页
+  编程入门
+  前端开发
+  服务器端
+  数据库
+  移动端
+  服务器运维
+  开发工具
+  XML
+  实例/案例
+  网站建设
+  学习资源
+  在线工具
+  极客导航
+    var apppath = '/'; var domain = 'http://www.w3cschool.cn';   
+
+
+
+学技术查资料，从W3Cschool开始
+
+高质量、系统化、有温度的IT技术内容平台
+
+
+ 搜索 
+
+
+
+
+
+
+热门教程更多
+  HTML教程 127118人已学 
+  CSS教程 76570人已学 
+  javascript教程 103774人已学 
+  jQuery教程 58222人已学 
+  bootstrap教程 26791人已学 
+  PHP教程 41774人已学 
+  Java教程 29530人已学 
+  python基础教程 17677人已学 
+  MySQL教程 18319人已学 
+  SQL教程 40941人已学 
+
+ 
+
+收录文档推荐更多
+  百度搜索MIP教程 527人已学 
+  微信小程序开发文档 30639人已学 
+  微信小程序指南手册 110人已学 
+  JavaScript 和 HTML DOM 参考手册 20241人已学 
+  JFinal手册 1105人已学 
+  css参考手册 21666人已学 
+  CSS属性视觉引导 1219人已学 
+  FastJson 教程 151人已学 
+  ThinkPHP3.2.3完全开发手册 6608人已学 
+  Yii 2.0 权威指南 1484人已学 
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+ 
+ 
+
+入门推荐更多
+
+
+
+HTML5教程
+ 
+
+CSS3教程
+ 
+
+JSP教程
+ 
+
+Node.js教程
+ 
+
+
+Html/CSS编程实战
+ 
+
+Javascript编程实战
+ 
+
+Bootstrap编程实战
+ 
+
+Jquery编程实战
+ 
+
+最新更新更多
+  Less Mixin Guards2017-01-11
+  LESS Mixin Guards2017-01-11
+  HTML 属性2017-01-11
+  HTML 介绍2017-01-11
+  HTML 元素2017-01-11
+  LESS 类型检查函数2017-01-11
+  LESS Guard逻辑运算符2017-01-11
+  LESS Guard比较运算符2017-01-11
+  简介与快速开始2017-01-10
+  微信小程序API 导航2017-01-10
+  LESS-nth表达式2017-01-10
+  Less 导入选项2017-01-10
+  LESS 导入可选选项关键字2017-01-10
+  LESS 导入多个选项关键字2017-01-10
+
+
+
+
+快速登录
+
+
+使用微博登录
+
+使用QQ登录
+
+使用微信登录
+
+ 
+使用微信扫码登录
+
+  
+
+  
+
+
+头条公告更多
+  W3Cschool翻译任务认领（有积分奖励哦~）
+  百度无人车三千多个场景，竟然有一万多个if，谁敢去坐?
+  直接拿来用!免费开源的web开发工具与资源
+  程序员的办公桌大概长这样!你的办公桌是怎样的?
+  微信小程序导航｜微信小程序入口在哪里？哪些可以关注的小程序？
+
+
+
+
+免费的在线教程&技术文档
+ 
+
+
+
+编程入门教程
+
+  学习 HTML
+
+
+  学习 HTML5
+
+
+  学习 CSS
+
+
+  学习 CSS3
+
+
+  学习 Javascript
+
+
+  学习 正则表达式
+
+
+编程实战训练
+
+  实战 HTML&CSS
+
+
+  实战 JavaScript
+
+
+  实战 Bootstrap
+
+
+  实战 jQuery
+
+
+数据库开发教程
+
+  学习 Access
+
+
+  学习 Cassandra
+
+
+  学习 Hibernate
+
+
+  学习 MariaDB
+
+
+  学习 Memcached
+
+
+  学习 MongoDB
+
+
+  学习 MyBatis
+
+
+  学习 Mysql
+
+
+  学习 Redis
+
+
+  学习 Scala
+
+
+  学习 Slick
+
+
+  学习 Spark
+
+
+  学习 SQL
+
+
+  学习 SQLite
+
+
+  学习 Storm
+
+
+开发框架
+
+  学习 Django
+
+
+  学习 Jfinal
+
+
+  学习 Junit
+
+
+  学习 Revel
+
+
+  学习 Servlet
+
+
+  学习 Spring
+
+
+  学习 Swing
+
+
+  学习 Struts2
+
+
+  学习 WordPress
+
+
+学习资源收藏
+
+  前端学习资源汇总
+
+
+  微信小程序资源汇总
+
+
+  免费Jquery插件合集
+
+
+  自助建站资源汇总
+
+
+XML教程
+
+  学习 XML
+
+
+  学习 DTD
+
+
+  学习 XML DOM
+
+
+  学习 XSL T
+
+
+  学习 XSL-FO
+
+
+  学习 XPath
+
+
+  学习 XQuery
+
+
+  学习 SOAP
+
+
+  学习 RSS
+
+
+  学习 Web Services
+
+
+
+
+
+前端开发教程
+
+  学习 AJAX
+
+
+  学习 AngularJS
+
+
+  学习 Angular2
+
+
+  学习 Bootstrap
+
+
+  学习 CoffeeScript
+
+
+  学习 ECMAScript
+
+
+  学习 Ember
+
+
+  学习 Extjs
+
+
+  学习 HTML DOM
+
+
+  学习 jQuery
+
+
+  学习 jQuery EasyUI
+
+
+  学习 jQuery UI
+
+
+  学习 JSON
+
+
+  学习 Meteor
+
+
+  学习 UI设计
+
+
+  学习 Vue
+
+
+  学习 前端开发规范
+
+
+  学习 初级脚本算法
+
+
+移动端开发教程
+
+  学习 Android SDK
+
+
+  学习 AppCan
+
+
+  学习 Cordova
+
+
+  学习 CrossApp
+
+
+  学习 HomeKit
+
+
+  学习 IOS
+
+
+  学习 jQuery Mobile
+
+
+  学习 React
+
+
+  学习 Swift 
+
+
+  学习 微信小程序开发
+
+
+大数据
+
+  学习 Apache Pig
+
+
+  学习 Kafka
+
+
+  学习 Storm
+
+
+  学习 Hadoop
+
+
+  学习 Impala
+
+
+  学习 Zookeeper
+
+
+网站建设教程
+
+  学习 HTTP
+
+
+  学习 TCP/IP
+
+
+  浏览器信息
+
+
+  网站建设指南
+
+
+  网站主机
+
+
+  网站品质
+
+
+  学习 W3C标准
+
+
+常用办公软件教程
+
+  学习 Axure
+
+
+  学习 Excel
+
+
+  学习 Markdown语法
+
+
+  学习 Office技巧
+
+
+  学习 Photoshop
+
+
+
+
+
+服务器端开发教程
+
+  学习 PHP
+
+
+  学习 Java
+
+
+  学习 JSP
+
+
+  学习 ASP.NET
+
+
+  学习 C
+
+
+  学习 C++
+
+
+  学习 C#
+
+
+  学习 Docker
+
+
+  学习 Erlang
+
+
+  学习 Go
+
+
+  学习 Groovy
+
+
+  学习 Lua
+
+
+  学习 Node.js
+
+
+  学习 Perl
+
+
+  学习 Python
+
+
+  学习 Python3
+
+
+  学习 Ruby
+
+
+  学习 R语言
+
+
+  学习 SAS
+
+
+  学习 Servlet
+
+
+  学习 Swoole
+
+
+  学习 VB.NET
+
+
+  学习 VBscript
+
+
+  学习 Julia
+
+
+  学习 Apex
+
+
+运维及服务器搭建教程
+
+  学习 Dart
+
+
+  学习 Docker
+
+
+  学习 Docker从入门到实践
+
+
+  学习 DOS命令
+
+
+  学习 Linux
+
+
+  学习 Nginx使用手册
+
+
+  学习 OAuth2
+
+
+  学习 Shell编程范例
+
+
+  学习 Unix
+
+
+实例/案例
+
+  HTML 实例
+
+
+  CSS 实例
+
+
+  XML 实例
+
+
+  JavaScript 实例
+
+
+  JavaScript 对象实例
+
+
+  HTML DOM 实例
+
+
+  XML DOM 实例
+
+   
+  AJAX 实例
+
+
+  VBScript 实例
+
+
+  ASP 实例
+
+
+  ADO 实例
+
+
+  SVG 实例
+
+   
+
+
+
+参考手册
+
+  HTML 参考手册
+
+
+  CSS 参考手册
+
+
+  JavaScript 和 HTML DOM 参考手册
+
+
+  Yii 2.0 权威指南
+
+
+  ThinkPHP3.2.3完全开发手册
+
+
+  PHP开发编码规范
+
+
+  SSDB数据库使用手册
+
+
+  微信公众平台的开发者文档
+
+
+开发工具教程
+
+  学习 Ant
+
+
+  学习 Arduino
+
+
+  学习 Atom
+
+
+  学习 Composer
+
+
+  学习 Codesmith
+
+
+  学习 Dreamweaver
+
+
+  学习 Eclipse
+
+
+  学习 Flex
+
+
+  学习 Firebug
+
+
+  学习 Git
+
+
+  学习 Gradle
+
+
+  学习 Grunt
+
+
+  学习 HBuilder
+
+
+  学习 Maven
+
+
+  学习 Sublime Text
+
+
+  学习 SVN
+
+
+  学习 Tableau
+
+
+  学习 Vim
+
+
+字符集
+
+  HTML 字符集
+
+
+  HTML ASCII
+
+
+  HTML ISO-8859-1
+
+
+  HTML 符号
+
+
+测验/考试
+
+  HTML 测验
+
+   
+  CSS 测验
+
+
+  XML 测验
+
+
+  JavaScript 测验
+
+
+  SQL 测验
+
+
+  ASP 测验
+
+
+  PHP 测验
+
+
+代码验证
+
+  验证 HTML
+
+
+  验证 CSS
+
+
+  验证 XHTML
+
+
+  验证 XML
+
+
+  验证 WML
+
+
+
+
+在线编程，一个IT人员的在线实验室
+
+在w3cschool代码实验室里，你可以使用超过80种编程语言创建、编写、执行你的程序，甚至是把它们分享到网络上，给你带来超凡的开发体验！
+立即体验 
+
+
+
+在线工具库
+ 
+
+
+代码工具
+
+
+  在线IDE编辑工具
+
+   
+  JavaScript格式化整理工具
+
+   
+  在线生成字体CSS样式工具
+
+   
+  在线 Markdown 编译器
+
+   
+  JSON在线美化工具
+
+   
+  简单的在线流程工具
+
+   
+
+格式化美化工具
+
+
+  PHP代码在线格式化美化工具
+
+   
+  SQL代码在线格式化美化工具
+
+   
+  HTML/css/JS在线压缩工具
+
+   
+  C语言风格/HTML/CSS/json代码格式化美化工具
+
+   
+  Perl代码在线格式化美化工具
+
+   
+  在线文本美化排版工具
+
+   
+
+站长辅助工具
+
+
+  在线Meta 标签生工具
+
+   
+  在线robots.txt文件生成工具
+
+   
+  在线CSV转HTML表格
+
+   
+  在线去除重复项工具
+
+   
+  Excel/csv数据转json格式工具
+
+   
+  在线特效文字/彩色文字生成工具
+
+   
+
+CSS在线工具
+
+
+  在线CSS Lint(CSS代码优化)工具
+
+   
+  CSS3代码生成器
+
+   
+  CSS3 Text Stroke和text-fill-color调试工具
+
+   
+  CSS3 border-radius(圆角)效果在线调试工具
+
+   
+  CSS3 Text Shadow(文本阴影)效果在线调试工具
+
+   
+  CSS3 Box Shadow(阴影)效果在线调试工具
+
+   
+
+编码转换工具
+
+
+  二维码在线解码工具
+
+   
+  二维码在线生成工具
+
+   
+  在线条形码生成工具
+
+   
+  在线Unicode/中文转换工具
+
+   
+  URL在线编码转换工具
+
+   
+  Native/UTF-8在线编码转换工具
+
+   
+
+
+友情链接
+
+在线工具 智米云 优聚 技术宅 易百教程 思维导图 开源社区 视频制作软件 app开发 网页模版 代理ip 网站测速 51CTO学院 网站制作 
+office办公软件 crm ecshop模板堂 LayaBox 1元主机 
+
+
+
+注册成功 X 
+
+
+ 
+
+
+W3Cschool 
+
+恭喜您成为首批注册用户
+
+获得88经验值奖励
+马上体验   
+
+
+
+网站相关
+
+
+关于我们
+
+加入我们
+
+免责声明
+
+网站地图
+
+
+内容专区
+
+
+编程入门教程
+
+开源文档
+
+在线实例
+
+文章存档
+
+
+常用链接
+
+
+使用帮助
+
+极客导航
+
+编程百科
+
+w3cschool手机版
+
+
+联系我们
+
+
+官方QQ2群：435572245
+
+官方QQ群：495864936(已满)
+
+商务合作QQ：3265790599
+
+友情链接QQ：348682826
+
+
+
+
+微信号：w3cschoolcn
+
+
+Copyright©2016 亿动科技 w3cschool.cn  All Rights Reserved. 闽ICP备15016281号-3
+
+ 
+二维码
+
+建议反馈
+
+
+
+
+
+意见反馈 X 
+
+  意见反馈：
+请留下您宝贵的意见反馈吧。 
+  联系方式：
+   
+提交  
+
+
+
+免费注册w3cschool，收藏你感兴趣的教程手册！
+
+注册w3cschool或直接微博登录QQ登录微信登录
+
+使用微信扫码登录
+
+已有账号，登录
+X  站长统计 jQuery(function() { $("#menu li a").click(function(){ var hr = 
+$(this).attr("href"); var anh = hr.split('#');
+ $(".sidebar-title").css('color','#000'); $('#'+anh[1]).css('color','#AE4141');
+ }); $.ajaxdo({ type : "POST", url : "/index/checkLoginByIndex", dataType : 
+"json", data : {}, success : function(data){ var html = ''; var info = 
+data.data; var check = $(".quick-item"); if(typeof check != 'undefined'){
+ if(data.statusCode == '200' && typeof info.username != 'undefined'){ html += 
+'<div class="personino-item"><div class="personino-box"><div 
+class="user-box"><div class="user-avatar">' +'<img 
+src="http://img.w3cschool.cn/attachments/avatar/'+info.avatar+'" 
+alt="'+info.nickname+'"></div>' +'<div class="user-info"><a 
+href="/u/'+info.uid+'" target="_blank">'+info.nickname+'</a>'
+ +'<span>学号：'+info.uid+'</span></div></div><div 
+class="user-desc"><span>经验值：'+info.exp+'</span>'
+ +'<span>当前等级：LV'+info.level+'</span></div></div><div class="quicklogin 
+quick-box">' +'<a href="/my"><i class="pop-sns icons-user"></i>个人中心</a>'
+ +'</div>' +'<div class="record-box"><h3>我最近学习的教程：</h3><ul>'; var projectinfo = 
+info.projectinfo; for (var i = 0; i < projectinfo.length ; i++) { html += 
+'<li><a href="/'+projectinfo[i]['ename']+'" 
+title="'+projectinfo[i]['bookname']+'">'+projectinfo[i]['bookname']+'</a></li>';
+ } html += '</ul></div></div>'; $('.quick-item').remove();
+ $('#sidebar').prepend(html); } } } }); $(function(){ m_over(); m_out(); });
+ function m_over(){ $(".slide-main").on("mouseover",function(){
+ $(".slide-next-btn-box").attr("style","display:block;"); }); } function 
+m_out(){ $(".slide-main").on("mouseout",function(){
+ $(".slide-next-btn-box").attr("style","display:none;"); }); } });  

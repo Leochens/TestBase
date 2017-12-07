@@ -77,7 +77,7 @@ foreach ($marks as $key => $mark) {?>
         /*border: 1px red solid;*/
         max-width: 600px;
         min-height: 30px;
- background: #FCFCFC;
+        background: #FCFCFC;
 
     }
     #mark_form{

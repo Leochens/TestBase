@@ -60,7 +60,7 @@ class mysql{
 
     public function autoExecute($table,$arr,$mode='insert',$where=' where 1 limit 1'){
         /*
-        insertt into tbname (username,password,email) vallues ('xxxxx','xx')
+        insert into tbname (username,password,email) vallues ('xxxxx','xx')
         //把所有的键名用','连接起来
         //implode(',',array_keys($arr));
         //implode("','",array_values($arr));
