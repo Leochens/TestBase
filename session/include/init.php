@@ -1,11 +1,14 @@
 <?php 
 header("Content-Type:text/html;charset=utf-8");
 define('ROOT',str_replace('\\','/',dirname(dirname(__FILE__))).'/');
-
-require ROOT.'./include/conf.ini.php';//加载配置文件
-require ROOT.'./mysql.class.php';       //加载数据库模块
-require ROOT.'/include/conf.class.php';
-require ROOT.'/session_start.php';
+//加载模板文件
+require_once ROOT.'/zn/string.php';
+require_once ROOT.'./include/conf.ini.php';//加载配置文件
+require_once ROOT.'./mysql.class.php';   
+//加载数据库模块
+require_once ROOT.'/include/conf.class.php';
+require_once ROOT.'/session_start.php';
+require_once ROOT.'/View/goTip.php';
 //递归转义数组
 function _addslashes($arr){
     foreach($arr as $key=>$value){
@@ -17,10 +20,6 @@ function _addslashes($arr){
     }
     return $arr;
 }
-
-
-
-
 $_GET = _addslashes($_GET);
 $_POST = _addslashes($_POST);
 $_COOKIE = _addslashes($_COOKIE);
@@ -30,4 +29,4 @@ $db=mysql::getIns();
 
 
  ?>
-     <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">

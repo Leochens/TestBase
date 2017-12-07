@@ -5,7 +5,7 @@ include './session_check.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>后台首页</title>
+    <title><?php echo $dashboard['title']; ?></title>
     <link rel="stylesheet" href="./css/dashboard.css">
 
     <script src="js/dashboard.js"></script>
@@ -18,38 +18,38 @@ include './session_check.php';
 <div id="sidebar">
     <div class="content">
         <ul>
-            <li class="menu_btn"><a href=""><h3>MENU</h3></a></li>
+            <li class="menu_btn"><a href=""><h3><?php echo $dashboard['MENU']; ?></h3></a></li>
             <li>  
-                <h3 onclick="ToArticle()">我的日记卡片</h3>
+                <h3 onclick="ToArticle()"><?php echo $dashboard['item_1']; ?></h3>
             </li>
             <li>
                 <span>
-                    <h3 onclick="ToBookmark()">我的书签</h3>
+                    <h3 onclick="ToBookmark()"><?php echo $dashboard['item_2']; ?></h3>
                 </span>
             </li>
             <li>
                 <span>
-                    <a href=""><h3>回收站</h3></a>
+                    <a href=""><h3><?php echo $dashboard['item_3']; ?></h3></a>
                 </span>
             </li>
             <li>
                 <span>
-                    <a href=""><h3>Github</h3></a>
+                    <a href=""><h3><?php echo $dashboard['item_4']; ?></h3></a>
                 </span>
             </li>
             <li>
                 <span>
-                    <a href=""><h3>进程管理</h3></a>
+                    <a href=""><h3><?php echo $dashboard['item_5']; ?></h3></a>
                 </span>
             </li>
             <li>
                 <span>
-                    <a href=""><h3>运行状态</h3></a>
+                    <a href=""><h3><?php echo $dashboard['item_6']; ?></h3></a>
                 </span>
             </li>
             <li>
                 <span>
-                    <a href="del.php"><h3>注销登陆</h3></a>
+                    <a href="del.php"><h3><?php echo $dashboard['item_7']; ?></h3></a>
                 </span>
             </li>            
         </ul>
