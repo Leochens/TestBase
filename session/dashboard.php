@@ -19,39 +19,11 @@ include './session_check.php';
     <div class="content">
         <ul>
             <li class="menu_btn"><a href=""><h3><?php echo $dashboard['MENU']; ?></h3></a></li>
+            <?php foreach ($dashboard['items'] as $item) {?>
             <li>  
-                <h3 onclick="ToArticle()"><?php echo $dashboard['item_1']; ?></h3>
+                <h3 onclick="To('<?php echo  $item['src']?>')"><?php echo  $item['info']?></h3>
             </li>
-            <li>
-                <span>
-                    <h3 onclick="ToBookmark()"><?php echo $dashboard['item_2']; ?></h3>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <a href=""><h3><?php echo $dashboard['item_3']; ?></h3></a>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <a href=""><h3><?php echo $dashboard['item_4']; ?></h3></a>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <a href=""><h3><?php echo $dashboard['item_5']; ?></h3></a>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <a href=""><h3><?php echo $dashboard['item_6']; ?></h3></a>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <a href="del.php"><h3><?php echo $dashboard['item_7']; ?></h3></a>
-                </span>
-            </li>            
+            <?php } ?>
         </ul>
     </div>
 </div>
@@ -61,15 +33,10 @@ include './session_check.php';
 <!--页脚-->
 
 <script>
-    function ToArticle() {
+    function To(link) {
     var frame=document.getElementById('frame');
-    frame.setAttribute('src','./dashboard/show_article.php')
+    frame.setAttribute('src',link )
     }
-    function ToBookmark() {
-    var frame=document.getElementById('frame');
-    frame.setAttribute('src','./dashboard/bookmark.php')
-    }    
-
 </script>
 
 </body>

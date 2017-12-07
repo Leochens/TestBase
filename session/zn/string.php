@@ -9,18 +9,20 @@
         'Fork',
         'Session',
     );
-    
-
     $dashboard=array(
         'title' =>'后台首页' ,
         'MENU' => 'MENU',
-        'item_1' => '我的日记卡片' ,
-        'item_2' => '我的书签',
-        'item_3' => '回收站',
-        'item_4' => 'Github',
-        'item_5' => '进程管理',
-        'item_6' => '运行状态',   
-        'item_7' => '注销登陆', );
+        'items' =>array(
+            array('info' => '我的日记卡片' , 'src' =>'./dashboard/show_article.php' ),
+            array('info' => '我的书签' , 'src' =>'./dashboard/bookmark.php' ),
+            array('info' => '我的文件' , 'src' =>'./dashboard/upload_file.php' ),
+            array('info' => '测试下载' , 'src' =>'./dashboard/download.php' ),
+
+            //array('info' => 'Github' , 'src' =>'javascript:void(0);' ),
+            //array('info' => '进程管理' , 'src' =>'javascript:void(0);' ),
+            array('info' => '注销登陆' , 'src' =>'./del.php' ),
+        )
+    );
 
 
     $Tips= array(
