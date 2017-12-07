@@ -75,7 +75,9 @@ $res=$db->getAll($sql);
         animation: 1s jello;
     }    
     .sa_header{
-    width: 300px;
+
+    min-width: 300px;
+    max-width: 800px;
     background-color: #4CAF50;
     color: white;
     padding: 10px;

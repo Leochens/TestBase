@@ -7,33 +7,66 @@ body{
 textarea,h1,h2,h3,h4,h5,h6,input,button,div,p,span,ul,li,table,th,td,tr,label{
     border: none;
     font-family: 'microsoft Yahei';
-    font-size: 17px;
+    /*font-size: 17px;*/
     font-weight: 300;  
+    margin: 0;
 }
-
-#art{
-    width: 1065px;
-    height: 162px;
+.main{
+    height: 100%;
+    width: 100%;
+}
+#art,#art_raw{
+    width: 500px;
+    height: 600px;
     resize: none;
     border-radius: 10px;
     outline: none;
-    padding: 6px 8px 6px 8px;
+    padding: 10px 8px ;
     background: #F7F7F7;
-    margin: 3px;     
-    margin: 10px;
+    
+    margin-left:  10px;
+    float: left;
+
+}
+#art_raw textarea{
+   height: 100%;
+   width: 100%;
+   resize: none;
+   background: transparent;
 }
 #title{
     border: 1px solid #778899;
     border-radius: 10px;
     outline: none;
-    padding: 3px 6px;
-    width: 1065px;
+    padding: 8px 6px;
+    width: 1025px;
     margin: 0 auto;
     margin: 10px;
+}
+.Form{
+    height: 100%;
+    width: 100%;
 }
 #sub{
     display: block;
     padding: 3px;
     color: #000080;
+
+    font-size: 17px;
+    margin-left:85%;
+
+    /*margin-top: 10px;*/
+}
+#info{
     margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+}
+
+h1{
+    font-family: 'microsoft Yahei';
+    font-weight: 500;
+    color: red;
+    animation: 0.5s yello;
 }
