@@ -3,11 +3,12 @@ require '../include/init.php';
 header("Content-Type:text/html;charset=utf-8");
 if (isset($_GET['tip'])) {
 ?>
+<link rel="stylesheet" href="../css/animate.css">
 <div class="wraper">
 
-<div class="tip">
+<div class="tip animated zoomInUp">
     <p class="tip_info"><?php echo $_GET['tip']; ?></p>
-    <?php if ($_GET['tip']==$Tips['login_sec']) {?>
+    <?php if ($_GET['tip']==$Tips['reg_sec']) {?>
     <button class="yes" onclick="window.location='../login.php'">确定</button>
     <?php   }else{ ?>
     <button class="yes" onclick="history.go(-1)">确定</button>
@@ -26,7 +27,7 @@ if (isset($_GET['tip'])) {
         background: rgba(0,0,0,0.3);
     }
     .tip{
-        animation: 1s ani;
+        /*animation: 1s ani;*/
         position: relative;
         margin: 10% auto;
         height: 200px;
@@ -45,10 +46,9 @@ if (isset($_GET['tip'])) {
         background: #7B68EE;
         margin: 30% auto;
         color: #fff;
-
     }
     @keyframes ani{
-        from{top: 0;opacity: 0;}to{top: 10%;opacity: 1}
+        from{opacity: 0;}to{opacity: 1}
     }
     
 </style>
