@@ -10,8 +10,8 @@ header("Content-Type:text/html;charset=utf-8"); ?>
     <input type="submit" name="sub" id="sub" value="提交">
     <input type="text" name="title" placeholder="在此输入你的标题" id="title">
     <div onkeyup="compile()" id="art_raw"><textarea id="art_raw_text" placeholder="<?php echo $Edit['help']; ?>" ></textarea></div>
-    <div id="art" >
-    <textarea hidden="hidden" name="content" id="cc"></textarea></div>
+    <div id="art" ></div>
+    <textarea hidden="hidden" name="content" id="cc"></textarea>
     
 </form>
 
