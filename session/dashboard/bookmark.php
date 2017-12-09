@@ -56,13 +56,16 @@ require '../include/init.php';?>
  $marks=$db->getAll($sql) ;
 foreach ($marks as $key => $mark) {?>
         <li class="mark_item animated fadeIn">
-        <button onclick='window.location.href="./delete.php?mark_id=<?php echo $mark['mark_id']; ?>"' class="del animated rubberBand">X</button>
+        <!--获取书签图标图标-->
+        <img src="<?php echo "http://favicon.byi.pw/?url=".$mark['link'] ?>" alt="$mark['link']">
         <!--<span>
         <?php echo $mark['info']; ?>
         </span>-->
         <a class="a_link" href="<?php echo $mark['link']; ?>" target='_blank'>
             <?php echo $mark['info']; ?>
-        </a></li>
+        </a>
+        <button onclick='window.location.href="./delete.php?mark_id=<?php echo $mark['mark_id']; ?>"' class="del animated rubberBand">X</button>
+    </li>
         <?php    } ?>  
     </ul> 
 </div>
