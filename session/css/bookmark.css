@@ -1,0 +1,80 @@
+ul,li{
+        list-style: none;
+    }
+    .mark_item{
+        margin: 10px;
+        /*border: 1px red solid;*/
+        max-width: 600px;
+        min-height: 30px;
+        background: #FCFCFC;
+
+    }
+    #mark_form{
+        padding: 10px;
+        font-weight: 300;
+        font-size: 17px;
+    }
+    #info,#link,#sub{
+        border: none;
+        outline: none;
+        border: 0;
+        border: 1px solid #7B68EE;
+        padding: 6px 8px 6px 8px;
+        margin: 10px;
+        border-radius: 3px;        
+    }
+    #sub{
+        background:  #7B68EE;
+        color: #fff;
+    }
+    #link{
+    
+    }
+    .del{
+        border: solid 1px #DDA0DD;
+        padding: 6px 8px 6px 8px;
+        background: #DDA0DD;
+        color: #fff;
+        border-radius: 3px;
+
+    }
+    .del:hover{
+        background: #8A2BE2;
+
+    }
+    .showMarks{
+       
+    }
+    .a_link{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 300;
+        color: #6A5ACD;
+        margin-left: 15px;
+    }
+    .a_link:hover,.a_link:focus{
+        text-decoration: underline;
+    }
+@media only screen and (max-width: 1080px),only screen and (max-width:1080px) {
+    .mark_form{
+        font-size: 2rem;
+    }
+    
+    .mark_item{
+        height:5rem;
+        max-width: 95%;
+    
+    }
+    .mark_item a{
+        font-size: 2rem
+    }
+    .del{
+        font-size: 2rem;
+    }
+    .mark_item img{
+        height: 2rem;
+    }
+    #info,#link,#sub{
+      font-size: 2rem;
+    }
+}

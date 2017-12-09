@@ -44,5 +44,31 @@ animation: fadeIn 0.5s;
 @keyframes fadeIn{
     from{background:rgb(51, 55, 68);}to{background:  rgb(66, 72, 91);color: #fff;}
 }
-
+@media only screen and (max-width: 1080px),only screen and (max-width:1080px) {
+      body {
+          font-size:33.75px;
+      }
+      .header{
+        display: none;
+      }
+      #sidebar{
+        float: none;
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      #sidebar li,#sidebar li h3{
+        display: inline;
+        height:3rem;
+        line-height:3rem;
+        font-size: 3rem;
+      }
+      #frame{
+        height: 90%;
+        width: 100%;
+        float: none;
+      }
+  }
 

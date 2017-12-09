@@ -41,6 +41,7 @@ require '../include/init.php';?>
     }
 }?>
 <link rel="stylesheet" href="../css/animate.css">
+<link rel="stylesheet" href="../css/bookmark.css">
 <form id="mark_form" action="">
     书签名：<input type="text" name="info" id="info" placeholder="如果不填写则自动获取">链接：<input type="text" name="link" id="link">
     <input type="submit" name="sub" id="sub" value="提交">
@@ -71,64 +72,5 @@ foreach ($marks as $key => $mark) {?>
 </div>
 <?php include ROOT.'./footer.php';?>
 
-<style>
-    ul,li{
-        list-style: none;
-    }
-    .mark_item{
-        margin: 10px;
-        /*border: 1px red solid;*/
-        max-width: 600px;
-        min-height: 30px;
-        background: #FCFCFC;
 
-    }
-    #mark_form{
-        padding: 10px;
-        font-weight: 300;
-        font-size: 17px;
-    }
-    #info,#link,#sub{
-        border: none;
-        outline: none;
-        border: 0;
-        border: 1px solid #7B68EE;
-        padding: 6px 8px 6px 8px;
-        margin: 10px;
-        border-radius: 3px;        
-
-    }
-    #sub{
-        background:  #7B68EE;
-        color: #fff;
-    }
-    #link{
-    
-    }
-    .del{
-        border: solid 1px #DDA0DD;
-        padding: 6px 8px 6px 8px;
-        background: #DDA0DD;
-        color: #fff;
-        border-radius: 3px;
-
-    }
-    .del:hover{
-        background: #8A2BE2;
-
-    }
-    .showMarks{
-       
-    }
-    .a_link{
-        text-decoration: none;
-        font-size: 17px;
-        font-weight: 300;
-        color: #6A5ACD;
-        margin-left: 15px;
-    }
-    .a_link:hover,.a_link:focus{
-        text-decoration: underline;
-    }
-</style>
 
