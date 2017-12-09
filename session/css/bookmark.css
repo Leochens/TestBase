@@ -55,7 +55,7 @@ ul,li{
     .a_link:hover,.a_link:focus{
         text-decoration: underline;
     }
-@media only screen and (max-width: 1080px),only screen and (max-width:1080px) {
+/*@media only screen and (max-width: 1080px),only screen and (max-width:1080px) {
     .mark_form{
         font-size: 2rem;
     }
@@ -77,4 +77,4 @@ ul,li{
     #info,#link,#sub{
       font-size: 2rem;
     }
-}
+}*/

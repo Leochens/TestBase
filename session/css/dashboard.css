@@ -44,7 +44,7 @@ animation: fadeIn 0.5s;
 @keyframes fadeIn{
     from{background:rgb(51, 55, 68);}to{background:  rgb(66, 72, 91);color: #fff;}
 }
-@media only screen and (max-width: 1080px),only screen and (max-width:1080px) {
+/*@media only screen and (max-width: 1080px),only screen and (max-width:1080px) {
       body {
           font-size:33.75px;
       }
@@ -71,4 +71,4 @@ animation: fadeIn 0.5s;
         float: none;
       }
   }
-
+*/
