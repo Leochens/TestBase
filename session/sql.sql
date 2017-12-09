@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `username` varchar(20) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `password` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `email` varchar(30) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
-  `time` datetime NULL DEFAULT CURRENT_TIMESTAMP,
+  `time` datetime NULL ,
   PRIMARY KEY (`user_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ---等待完善---
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `article` (
   `user`  varchar(20) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `title` varchar(20) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `content` varchar(1000) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
-  `time` datetime NULL DEFAULT CURRENT_TIMESTAMP,
+  `time` datetime NULL ,
   PRIMARY KEY (`art_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `bookmark` (
   `user` varchar(20) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unknown',
   `__spare1` int(10)  NOT NULL DEFAULT 0,
   `__spare3` varchar(100) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
-  `time` datetime NULL  DEFAULT CURRENT_TIMESTAMP,
+  `time` datetime NULL ,
   PRIMARY KEY (`mark_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
