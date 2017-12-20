@@ -17,9 +17,8 @@
             array('info' => '我的书签' , 'src' =>'./dashboard/bookmark.php' ),
             array('info' => '我的文件' , 'src' =>'./dashboard/upload_file.php' ),
             array('info' => '测试下载' , 'src' =>'./dashboard/download.php' ),
-
             //array('info' => 'Github' , 'src' =>'javascript:void(0);' ),
-            //array('info' => '进程管理' , 'src' =>'javascript:void(0);' ),
+            array('info' => 'exec' , 'src' =>'./Tool/exec.php' ),
             array('info' => '注销登陆' , 'src' =>'./del.php' ),
         )
     );

@@ -33,8 +33,10 @@ if (isset($_POST['sub'])) {
 
 <style>
     body{
-        background: #F5FFF5;
-    }
+        background: url(upload/login.jpg);
+        -webkit-background-size: 100%;
+        background-size: 100%;
+     }
     #reg_form{
         margin: 100px 60%;
         width: 300px;

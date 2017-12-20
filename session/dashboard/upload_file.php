@@ -58,7 +58,6 @@ while (($file = readdir($dh)) !== false) {?>
 } closedir($dh);
 }
 }
-
 ?>
 </body>
 </html>

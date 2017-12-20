@@ -27,6 +27,13 @@ if (isset($_POST['sub'])) {
      </form> 
      <a class="reg" href="./register.php">没有账户？注册</a>
  </div>
+ <style>
+     body{
+        background: url(upload/login.jpg);
+        -webkit-background-size: 100%;
+        background-size: 100%;
+     }
+ </style>
 <?php include ROOT.'./footer.php';?>
 <?php if($flag) {?>
  <script>

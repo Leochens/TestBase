@@ -1,0 +1,78 @@
+回滚后日志记录
+
+先安装apache 
+
+	yum install httpd
+
+	使用 /etc/systemctl start httpd.service启动服务
+	使用service httpd status 查看服务状态
+
+
+安装MySQL	这一步很复杂 最后按照下面简单来
+
+	必须先安装MariaDb		
+
+	# yum install mariadb-server -y //如果已安装可以省略  
+	# systemctl start mariadb.service //启动服务  
+	# systemctl enable mariadb.service //开机启动服务  
+	# mysql -u root -p //登录mysql  
+
+如何修改MySQL的root密码
+
+	方法1： 用SET PASSWORD命令
+
+　　	mysql -u root
+
+　　	mysql> SET PASSWORD FOR 'root'@'localhost' = PASSWORD('newpass');
+
+	方法2：用mysqladmin
+
+　　	mysqladmin -u root password "newpass"
+
+　　	如果root已经设置过密码，采用如下方法
+
+　　	mysqladmin -u root password oldpass "newpass"
+
+	方法3： 用UPDATE直接编辑user表
+
+　　	mysql -u root
+
+　　	mysql> use mysql;
+
+　　	mysql> UPDATE user SET Password = PASSWORD('newpass') WHERE user = 'root';
+
+　　	mysql> FLUSH PRIVILEGES;
+
+	在丢失root密码的时候，可以这样
+	
+　　	mysqld_safe --skip-grant-tables&
+php服务默认安装好了
+
+	使用which php查看安装路径
+
+
+
+　　	mysql -u root mysql
+
+　　	mysql> UPDATE user SET password=PASSWORD("new password") WHERE user='root';
+
+　　	mysql> FLUSH PRIVILEGES;
+安装phpmyadmin
+
+	yum install phpmyadmin
+	如果出现Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+	
+	# yum provides '*/applydeltarpm'
+	# yum install deltarpm
+	另外如果出现 No Presto metadata available for base. 的话 
+	
+	try
+	# yum provides '*/applydeltarpm'
+	And
+	# yum install deltarpm
+
+	默认情况下，CentOS 7上的phpMyAdmin只允许从回环地址(127.0.0.1)访问。为了能远程连接，你需要改动它的配置。
+
+	用文本编辑器打开phpMyAdmin的配置文件(路径：/etc/httpd/conf.d/phpMyAdmin.conf)，找出并注释掉带有"Require ip XXXX"		字样的代码行。会有四处这样的代码行，用"Require all granted"取而代之
+	最后，重启httpd使改动生效。systemctl restart httpd
+	测试phpMyAdmin是否设置成功，访问这个页面：http://<web-server-ip-addresss>/phpmyadmin

@@ -13,7 +13,14 @@
     //彻底删除session
     if(session_destroy())
     {
-    echo $Tips['logout'];  
-    header('refresh:1,url="./login.php"') ;
+    echo $Tips['logout']; ?>
+<script>
+    //解决iframe跳出
+    console.log("跳出");
+    top.location="./login.php";
+</script>
+<?php
+
+    //header('refresh:1,url="./login.php"') ;
 }
  ?>
